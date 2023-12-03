@@ -1,8 +1,8 @@
 import type {Meta, StoryObj} from '@storybook/react';
 import {action} from '@storybook/addon-actions';
 
-import {Accordion} from './Accordion';
 import React, {useState} from "react";
+import {Accordion} from "./Accordion";
 
 // const meta: Meta<typeof Accordion> = {
 //     component: Accordion,

@@ -13,9 +13,10 @@ function App() {
 
     return (
         <div className={"App"}>
-            <Accordion title={"Menu"} collapsed={accordionCollapsed} onChange={()=>setAccordionCollapsed(!accordionCollapsed)}/>
+            <Accordion title={"Menu"} collapsed={accordionCollapsed}
+                       onChange={() => setAccordionCollapsed(!accordionCollapsed)}/>
             {/*<Accordion title={"Users"} collapsed={accordionCollapsed} setAccordionCollapsed={setAccordionCollapsed}/>*/}
-            <Rating value={ratingValue} setRatingValue={setRatingValue}/>
+            <Rating value={ratingValue} onClick={setRatingValue}/>
             <OnOff on={on} setOn={setOn}/>
             {/*<UncontrolledAccordion title={"Menu2"} collapsed={accordionCollapsed}*/}
             {/*                       setAccordionCollapsed={setAccordionCollapsed}/>*/}
