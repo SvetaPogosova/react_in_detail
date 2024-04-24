@@ -9,7 +9,7 @@ type AccordionPropsType = {
     collapsed: boolean
     onChange: () => void
     items: ItemType[]
-    onClick: (value: any) => void
+    onClick: (value?: any) => void
 }
 
 export function Accordion(props: AccordionPropsType) {
